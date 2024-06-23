@@ -44,6 +44,8 @@
 	
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>We'd love for you to personalize your profile with a photo! To do this, we need access to your photos or camera. This will allow you to choose an existing photo or take a new one to use as your profile picture. We'll only use the photo for this purpose and won't share it anywhere else.</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string></string>
 	
 	<key>UIAppFonts</key>
 	<array>
