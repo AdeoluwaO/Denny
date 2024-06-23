@@ -40,7 +40,7 @@ console.log('STTORES PERR 32', profile);
         </Row>
         <Gap height={getComputedHeight(34)} />
         <Profile
-          fullName={`${initialLetterToUppercase(profile?.first_name!)} ${initialLetterToUppercase(profile?.last_name!)}`}
+          fullName={`${initialLetterToUppercase(profile?.first_name??'')} ${initialLetterToUppercase(profile?.last_name??'')}`}
           userName={`${profile?.first_name}`}
           profilePhoto={profile?.avatar!}
           onTapUserName={() => {
